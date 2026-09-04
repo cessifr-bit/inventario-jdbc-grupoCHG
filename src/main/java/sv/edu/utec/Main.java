@@ -40,7 +40,7 @@ public class Main{
         System.out.println("\n**** Eliminando Proveedor 2 ****");
         dao.eliminar(2);
 
-        //Listar de nuevo para ver los resultado finales
+        //Listar de nuevo para ver los resultado finales de la tabla
         List<Proveedor> listaFinal = dao.listar();
         for(Proveedor p : listaFinal){
             System.out.println(p.toString());

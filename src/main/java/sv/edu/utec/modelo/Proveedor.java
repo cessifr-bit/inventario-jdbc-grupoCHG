@@ -13,7 +13,6 @@ public class Proveedor {
     }
 
     //Metodos accesores
-
     //Getters and setters
     public int getId() {
         return id;
